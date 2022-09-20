@@ -1,0 +1,28 @@
+.articles-list>li {
+  padding: 15px 0;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.header-table {
+  margin-bottom: 10px;
+}
+
+.header-table>ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-table>ul>li {
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.header-table>ul>li:first-child {
+  text-align: start;
+}
+
+.header-table>ul>li:last-child {
+  text-align: end;
+}

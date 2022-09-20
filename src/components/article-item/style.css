@@ -1,0 +1,19 @@
+.article-item {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.article-item>span {
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0 10px;
+}
+
+.article-item>span:first-child {
+  text-align: start;
+}
+
+.article-item>span:last-child {
+  text-align: end;
+}
